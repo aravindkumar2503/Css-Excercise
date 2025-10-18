@@ -1,0 +1,41 @@
+/* 
+1.tagname selector it select all tag
+ */
+h1{
+    color: blue;
+}
+/* 2.Id selector ->it select only particular selector*/
+#heading2{
+    color: rgb(227, 97, 16);
+}
+
+#heading1
+{
+    color: cadetblue;
+}
+
+#section2{
+    background-color: burlywood;
+}
+/* 3.class it will select more than one selector*/
+.container1{
+    background-color: blueviolet;
+
+}
+/* 4.universal it will all the universe*/
+
+*{
+    font-style: italic;
+}
+
+
+.container2{
+    color: burlywood;
+}
+
+/* group selector */
+
+#para1 ,h3,h4{
+    color: chartreuse;
+    text-align: center;
+}

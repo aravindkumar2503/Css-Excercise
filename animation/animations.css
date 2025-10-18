@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer1{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(to right red yellow blue );
+    align-items: center;
+
+}
+
+.outer1>.con1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.outer1>.con2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.outer1>.con1>.box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: azure;
+}
+.outer1>.con2>.box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: black;
+    
+}
+.con1>.box1{
+    height: 100px;
+    width: 100px;
+    border: 1px saddlebrown;
+
+    animation: movingBox 2s ease-in alternate infinite;
+
+}
+@keyframes movingBox{
+    from{
+        background-color: brown;
+
+    }
+    to{
+        background-color: blueviolet;
+        transform: translate(160px);
+        border-radius: 50%;
+    }
+}
+.con2>.box2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid yellow;
+
+    animation: boxRotate 2s linear infinite;
+}
+@keyframes boxRotate {
+    from{
+        transform: rotate(0deg);
+        background-color: rgb(42, 15, 132);
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: tomato;
+        
+    }
+    
+}
+.outer1>.con3{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.con3>.box3{
+    height: 100px;
+    width: 100px;
+    border-top: 5px solid green;
+    border-radius: 50%;
+    animation: a1 2s linear infinite;
+
+}
+@keyframes a1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        
+    }
+}
+.outer2{
+    height: 100vh;
+    background: linear-gradient(to right red yellow blue );
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+.outer2>.con4{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    animation: a2 2s linear infinite;
+
+}
+.con4>.box4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    
+    
+}
+@keyframes a2{
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+.outer2>.con5{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.con5{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.con5>.circle{
+    height: 20px;
+    width: 20px;
+    border: 1px solid rebeccapurple;
+    border-radius: 50%;
+    animation: circle11  2s alternate  infinite;
+}
+.con5>#circle1{
+    background-color: aliceblue;
+}
+.con5>#circle2{
+    background-color:red;
+}
+.con5>#circle3{
+    background-color: green;
+}
+.con5>#circle4{
+    background-color: violet;
+}
+@keyframes circle11 {
+    from{
+        transform: translateY(-30px);
+
+    }
+    to{
+        transform: translateY(30px);
+    }
+    
+}
+

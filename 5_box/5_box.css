@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.con1{
+    background-color: aqua;
+    height: 200px;
+    width: 100vw;
+    top:0px;
+    position: fixed;
+}
+.con2{
+    background-color: rgb(54, 190, 54);
+    height: 500px;
+    width: 100vw;
+    
+}
+.con3{
+    background-color: rgb(220, 46, 176);
+    height: 200px;
+    width: 100vw;
+    
+    
+}
+.con4{
+    background-color: rgb(95, 33, 150);
+    height: 400px;
+    width: 100vw;
+    
+}
+.con5{
+    background-color: rgb(54, 61, 61);
+    height: 500px;
+    width: 100vw;
+    
+}
+.con3>button{
+    padding: 10px 20px;
+    margin: 20px;
+
+
+}

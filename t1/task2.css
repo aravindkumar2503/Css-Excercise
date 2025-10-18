@@ -1,0 +1,16 @@
+#gow{
+    color: blue;
+    text-align: center;
+}
+.con1{
+    height: 300px;
+    background-color: bisque;
+    
+    border: 3px solid black;
+}
+.con1>h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 3px red;
+}
+
+.con>.box{
+    height: 35px;
+    width: 55px;
+    border: 2px solid blue;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.con2{
+    margin: 20px;
+    
+    padding-top: 20px;
+    background-color: black;
+    border: 30px solid black;
+    border-radius: 20px;
+    width: 400px;
+    padding-left:2px;
+}
+
+.con2>button{
+
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 130px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 50px;
+    
+
+}
+.con2>button:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+}
+
+.con3{
+
+}

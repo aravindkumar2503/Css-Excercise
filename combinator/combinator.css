@@ -1,0 +1,43 @@
+/*.con1>h1
+{
+    color: blue;
+}
+.con1 >h1::after{
+    content: "**";
+}
+.con1 >h1::before{
+    content: "**";
+}*/
+.con1 >h1{
+    color: aquamarine;
+}
+
+.con1 >ol>li:nth-child(n)
+{
+    color: rgb(21, 208, 93);
+}
+
+.con3 {
+    height: 200px;width: 300px;
+    background-color: aqua;
+}
+.con3:hover{
+    background-color: rgb(197, 115, 115);
+}
+.con4 {
+    height: 200px;width: 300px;
+    background-color: rgb(5, 28, 28);
+}
+.con4:active{
+
+    background-color: blueviolet;
+}
+
+form >input[type="email"]
+{
+    background-color: blueviolet;
+}
+
+a [target="_blank"]{
+    color:yellowgreen;
+}
